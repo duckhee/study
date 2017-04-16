@@ -1,0 +1,24 @@
+{
+  "name": "calender",
+  "version": "1.0.0",
+  "description": "first develope",
+  "main": "main.js",
+  "scripts": {
+    "test": "this is application first",
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/duckhee/calender.git"
+  },
+  "author": "won",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duckhee/calender/issues"
+  },
+  "homepage": "https://github.com/duckhee/calender#readme",
+  "dependencies": {
+    "electron": "^1.6.2",
+    "jshint": "^2.9.4"
+  }
+}
