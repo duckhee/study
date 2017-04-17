@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name = "viewport" content = "width = device-width, initial-scale = 1">
+	<meta charset = "utf8">
+	<title>Edit Page</title>
+</head>
+<body>
+	<h1>Edit page</h1>
+	<hr />
+	<form method = "post">
+		<fieldset>
+			<legend>Edit Data</legend>
+			<table>
+				<tr>
+					<td><label>Id</label></td>
+					<td><input type = "text" name = "id" value = "<%= data.id %>" readonly = "readonly" /></td>
+				</tr>
+				<tr>
+					<td><label>Name</label></td>
+					<td><input type = "text" name = "name" value = "<%-data.name %>" /></td>
+				</tr>
+				<tr>
+					<td><label>Model Number</td>
+					<td><input type = "text" name = "modelnumber" value = "<%= data.modelnumber %>" /></td>
+				</tr>
+				<tr>
+					<td><label>Series</label></td>
+					<td><input type = "text" name = "series" value = "<%= data.series %>" /></td>
+				</tr>
+			</table>
+			<input type = "submit" value = "edit">
+		</fieldset>
+	</form>
+</body>
+</html>
+ 
